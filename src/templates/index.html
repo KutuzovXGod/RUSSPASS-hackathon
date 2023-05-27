@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+      {% load static %}
+    <link href="{% static 'main_page/css/style.css' %}" rel="stylesheet">
+    </head>
+    <body>
+       <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">RUSSPASS</div>
+            <nav class="nav"> 
+            <a class="nav__link active" href="#">Home</a>
+            <a class="nav__link" href="#">Service</a>
+            <a class="nav__link" href="#">Work</a>
+            <a class="nav__link" href="#">Contact</a>
+            </nav>
+        </div>
+        </div>
+    </header>
+        <div class="intro">
+        <div class="container">
+            <div class="intro__inner"> 
+                <h1 class="intro__suptitle">Отдых твоей мечты</h1>
+                <p class="intro__title">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis <br>ipsum sus pendisse ultrices gravida</p>
+                <a class="btn" href="#">Подробнее</a>
+            </div>
+            </div>
+        </div>
+        
+      <section class="section">
+    <div class="container">
+    <div class="section__header">
+        <h3 class="section__suptitle">Наша работа</h3>
+        <h2 class="section__title">И чем мы занимаемся</h2>
+        <div class="section__text">
+        <p>Компания RUSSPASS - это одна из самых крупных тур компаний, которая проводит экскурсии по самым красочным местам России. Вы сможете познакомится с историей многих локаций, о которых даже не знали. Наши клиенты работают с нами на протяжении долгого времени и всегда остаются в восторге. </p>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card__item">
+        <div class="card__inner">
+            <div class="card__img">
+         <img src="{% static 'main_page/img/1.jpg' %}">
+            </div>
+         </div>
+            <div class="card__text">Super team</div>
+        </div>          
+             <div class="card__item">
+        <div class="card__inner">
+            <div class="card__img">
+         <img src="{% static 'main_page/img/2.jpg' %}">
+            </div>
+         </div>
+            <div class="card__text">Super team</div>
+        </div>   
+            <div class="card__item">
+        <div class="card__inner">
+            <div class="card__img">
+         <img src="{% static 'main_page/img/3.jpg' %}">
+            </div>
+         </div>
+            <div class="card__text">Super team</div>
+        </div> 
+        
+    </div> <!-- /.container -->
+    </div>
+ </section>
+    </body>
+</html>
