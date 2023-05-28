@@ -34,7 +34,12 @@ margin: 0 auto;
 
 
 }
-
+/*Logo*/
+.logo{
+    margin: 0;
+    width: 10%;
+    height: 10%;
+}
 /*Intro*/
 .intro{
     display: flex;
