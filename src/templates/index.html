@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
       {% load static %}
-    <link href="{% static 'main_page/css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'main_page/css/main.css' %}" rel="stylesheet">
     </head>
     <body>
        <header class="header">
@@ -16,57 +16,180 @@
             <a class="nav__link" href="#">Work</a>
             <a class="nav__link" href="#">Contact</a>
             </nav>
-        </div>
+      </div>
         </div>
     </header>
         <div class="intro">
         <div class="container">
-            <div class="intro__inner"> 
+            <div class="intro__inner">
                 <h1 class="intro__suptitle">Отдых твоей мечты</h1>
-                <p class="intro__title">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis <br>ipsum sus pendisse ultrices gravida</p>
-                <a class="btn" href="#">Подробнее</a>
+                <p class="intro__title">Каждый мечтатель знает, что абсолютно реально скучать по месту, где ты никогда не был даже больше, чем по тому, где был. <br>Не бойся открыть для себя новый мир, все только в твоих руках.</p>
+                <a class="btn" href="test.html">Подробнее</a>
             </div>
             </div>
         </div>
-        
-      <section class="section">
+
+        <section class="section">
     <div class="container">
-    <div class="section__header">
-        <h3 class="section__suptitle">Наша работа</h3>
-        <h2 class="section__title">И чем мы занимаемся</h2>
+               <div class="section__header">
+        <div class="img_ser">
+        </div>
+        <h3 class="section__suptitle">What we do</h3>
+        <h2 class="section__title">Story about us</h2>
         <div class="section__text">
-        <p>Компания RUSSPASS - это одна из самых крупных тур компаний, которая проводит экскурсии по самым красочным местам России. Вы сможете познакомится с историей многих локаций, о которых даже не знали. Наши клиенты работают с нами на протяжении долгого времени и всегда остаются в восторге. </p>
+        <p>Туристическая компания «RUSSPASS» — одна из крупнейших компаний на рынке туристических услуг в России. На протяжении более чем двух лет существование туроператор «RUSSPASS» по праву заслужил место лучшей компании России. Качество предлагаемых нами услуг подтверждается многочисленными довольными клиентами со всех краев страны. Блестящая репутация компании — результат каждодневного труда штата высококлассных профессионалов своего дела. Сегодня туристическая компания предлагает своим клиентам широкое разнообразие услуг. Департаменты компании работают с отечественными и иностранными туристами из 27 стран мира. В репертуаре компании насчитывается более 30 экскурсий, которые регулярно обновляются и совершенствуются..</p>
         </div>
         </div>
 
-        <div class="card">
-            <div class="card__item">
-        <div class="card__inner">
-            <div class="card__img">
-         <img src="{% static 'main_page/img/1.jpg' %}">
+        <div class="cart">
+            <div class="cart__item">
+        <div class="cart__inner">
+            <div class="cart__img">
+         <img src="{% static 'main_page/img/gor.jpg' %}">
             </div>
          </div>
-            <div class="card__text">Super team</div>
-        </div>          
-             <div class="card__item">
-        <div class="card__inner">
-            <div class="card__img">
-         <img src="{% static 'main_page/img/2.jpg' %}">
+            <div class="cart__text">Super team</div>
+        </div>
+             <div class="cart__item">
+        <div class="cart__inner">
+            <div class="cart__img">
+         <img src="{% static 'main_page/img/got.jpg' %}">
             </div>
          </div>
-            <div class="card__text">Super team</div>
-        </div>   
-            <div class="card__item">
-        <div class="card__inner">
-            <div class="card__img">
-         <img src="{% static 'main_page/img/3.jpg' %}">
+            <div class="cart__text">Super team</div>
+        </div>
+            <div class="cart__item">
+        <div class="cart__inner">
+            <div class="cart__img">
+                <img src="{% static 'main_page/img/gad.jpg' %}">
             </div>
          </div>
-            <div class="card__text">Super team</div>
-        </div> 
-        
+            <div class="cart__text">Super team</div>
+        </div>
+
     </div> <!-- /.container -->
     </div>
  </section>
+
+
+
+   <section class="section">
+    <div class="container">
+    <div class="section__header">
+        <h3 class="section__suptitle">Выбор тура</h3>
+        <h2 class="section__title">Который вы хотите посетить</h2>
+        <div class="section__text">
+        <p>В нашем каталоге, вы можете выбрать для себя самые красивые путевки, с 5 звездочными отелями и обслуживанием</p>
+
+           <div class="container">
+  <div class="cards-container">
+    <div class="card">
+      <div class="elms-animation">
+        <span class="one"></span>
+		    <span class="two"></span>
+		    <span class="three"></span>
+	      <span class="four"></span>
+      </div>
+      <img src="{% static 'main_page/img/mos.PNG' %}">
+      <div class="content">
+         <a href="test.html"><button>Москва</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="elms-animation">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+      </div>
+      <img src="{% static 'main_page/img/derbent.PNG' %}">
+      <div class="content">
+         <a href="test.html"><button>Дагестан</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="elms-animation">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+      </div>
+      <img src="{% static 'main_page/img/cech.PNG' %}" alt=""/>
+      <div class="content">
+       <a href="test.html"><button>Чечня</button></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+ </section>
+
+      <footer class="footer">
+    <div class="container"></div>
+    <div class="footer__inner">
+    <div class="footer__col  footer__col--first">
+        <div class="footer__logo">RUSSPASS</div>
+        <div class="footer__text">Можете оставить вашу почту, либо связаться с нами через социальные сети.</div>
+        <div class="footer__social">
+        <div class="footer__social-header">
+            <b>15k</b> followers
+            </div>
+        <div class="footer__social-content">
+            Follow Us:
+            <a href="#" target="_blank">
+            <img src="{% static 'main_page/img/teleg.png' %}" alt="">
+            </a>
+            <a href="https://web.telegram.org/z/#5696620619" target="_blank">
+            <img src="{% static 'main_page/img/vk.png' %}" alt="">
+            </a>
+            <a href="#" target="_blank">
+            <img src="assets/images/icon-bg/3.png" alt="">
+            </a>
+            </div>
+        </div>
+
+
+        <form class="subscribe" action="/" method="post">
+            <input class="subscribe__input" type="email" name="name" placeholder="Your Email...">
+            <button class="subscribe__btn" type="submit">Subscribe</button>
+        </form>
+        </div>
+        <div class="footer__col   footer__col--second">
+            <div class="footer__title">Blogs</div>
+                <div class="blogs">
+            <div class="blogs__item">
+                    <img class="blogs__img" src="{% static 'main_page/img/pox.png' %}" alt="">
+                <div class="blogs__content">
+                    <a class="blogs__title" href="#">Наши фотографии с тура</a>
+                <div class="blogs__date">Июнь 7, 2022</div>
+                 </div>
+                 </div>
+                     <div class="blogs__item">
+                    <img class="blogs__img" src="{% static 'main_page/img/lec.jpg' %}" alt="">
+                <div class="blogs__content">
+                    <a class="blogs__title" href="#">О нашем начале вы сможете прочитать здесь</a>
+                <div class="blogs__date">Май 17, 2022</div>
+                 </div>
+                 </div>
+                     <div class="blogs__item">
+                    <img class="blogs__img" src="{% static 'main_page/img/or.jpg' %}" alt="">
+                <div class="blogs__content">
+                    <a class="blogs__title" href="#">Статья о нашей компании</a>
+                <div class="blogs__date">Янв 9, 2023</div>
+                 </div>
+                 </div>
+            </div>
+        </div>
+        <div class="footer__col  footer__col--third">
+
+
+        </div>
+    </div>
+</footer>
+
     </body>
 </html>
